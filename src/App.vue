@@ -41,7 +41,7 @@ export default {
           } 
         }`
       })
-      console.log(res)
+      this.champions = res.data.data
     },
 
     async getLanguage () {
